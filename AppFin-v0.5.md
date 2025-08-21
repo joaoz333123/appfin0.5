@@ -5,7 +5,7 @@ C:\AppFin-v0.5
 
  **AppFin ideal** — com a **IA como estrela** (via API) — focado em PMEs que hoje aprovam via WhatsApp/e-mail e querem disciplina, visibilidade e regras executáveis sem depender de ERP.
 
-# Princípios inegociáveis 
+# Princípios inegociáveis
 
 * **IA = motor de política**, não só “chat”: ela **projeta, simula e escreve** as regras que o sistema executa.
 * **Policy-as-code + trilha imutável**: toda regra tem **versão, autoria, motivo** e é **auditável**.
@@ -192,7 +192,7 @@ C:\AppFin-v0.5
 				* **IA**: providers plugáveis via API, JSON/tool-calling, RAG privado, explicabilidade obrigatória.
 				* **Infra**: Vercel + Fly/Railway + Supabase + Cloudflare, CI/CD GitHub Actions.
 
-		
+
 
 **********************************************************************************************************************
 **********************************************************************************************************************
@@ -462,7 +462,7 @@ Se quiser, adapto qualquer um dos prompts para o seu contexto exato (nomes de em
 
 **********************************************************************************************************************
 						TEMPLATES
-						
+
 **********************************************************************************************************************
 
 No ZIP tem estes templates:
@@ -511,7 +511,7 @@ README.md – ordem sugerida de preenchimento e observações.
 							- Idioma dos textos: PT-BR (Brasil). Moeda: R$ (BRL). Datas no formato dd/mm/aaaa.
 							- Dados plausíveis (nada de lorem ipsum), nomes fictícios e valores realistas.
 							- Layout: grid de 12 colunas, espaçamento generoso, contraste AA mínimo.
-							- Elementos recorrentes: topo com seletor de empresa “ACME Indústria” (tenant), busca global, avatar do usuário, breadcrumb na área de conteúdo.
+							- Elementos recorrentes: topo com seletor de empresa “AppFin” (tenant), busca global, avatar do usuário, breadcrumb na área de conteúdo.
 							- A IA SEMPRE mostra “por que” nas decisões (explicabilidade) quando aparecer.
 							- NÃO usar marcas de terceiros, NÃO inventar integrações.
 							- Exportar cada tela em 1920x1080 (desktop). Depois faremos variações mobile 390x844.
