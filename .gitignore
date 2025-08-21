@@ -110,3 +110,10 @@ node_modules/
 
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
+
+# Arquivos com secrets removidos do tracking
+CORRECOES UNIFICADAS 2325 18082025.MD
+CURSOR 0300 17082025.md
+RELATÓRIO TÉCNICO COMPLETO DO APPFIN v0.5 0313 18082025.md
+Relatório Técnico Completo AppFin0.5.md
+chat correcoes de auth e supabase, bad updates de dep.md
