@@ -100,11 +100,11 @@ export default function ChatPage() {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   };
 
-  (() => {
+  useEffect(() => {
     scrollToBottom();
   }, [messages]);
 
-  (() => {
+  useEffect(() => {
     // Carregar arquivos do storage
     loadStorageFiles();
   }, []);
@@ -126,7 +126,7 @@ export default function ChatPage() {
     setAttachments(prev => [...prev, ...files]);
   };
 
-  const removeAttachment = (_index: number) => {
+  const removeAttachment = (index: number) => {
     setAttachments(prev => prev.filter((_, i) => i !== index));
   };
 
@@ -719,7 +719,6 @@ export default function ChatPage() {
                     O Gemini não pode excluir arquivos ou danificar o sistema.
                     Todas as operações são seguras e auditáveis.
                   </p>
-                </div>
                 </div>
               </CardContent>
             </Card>
